@@ -1,0 +1,89 @@
+html{
+    size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.container{
+    width: 700px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    background-color: gainsboro;
+    background-image: linear-gradient(45deg, gainsboro,white);
+    padding: 1rem;
+
+}
+
+.clearfix{
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 250px 300px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'image heading' 
+    'image describe' ;
+    column-gap: 1rem;
+}
+
+.heading{
+    grid-area: heading;
+    margin-bottom: 10px;
+    font-size: 130%;
+    letter-spacing: 1px;
+    color: #627081;
+}
+
+.text{
+    grid-area: describe;
+    font-size: 85%;
+    line-height: 1.5em;
+    color: #666;
+}
+
+.image{
+    width: 200px;
+    max-width: 100%;
+    grid-area: image;
+    grid-row: 1 / span 2;
+}
+
+figure img{
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 1px 1px lightgray;
+    max-width: 100%;
+}   
+
+@media only screen and (max-width: 425px){
+    body >*{
+        margin: 0;
+    }
+
+    
+    .clearfix{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+    }
+    .clearfix > *{
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .image{
+        width: 425px;
+        max-width: 100%;
+        text-align: center;
+    }
+   
+}

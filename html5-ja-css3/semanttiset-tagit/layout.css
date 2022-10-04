@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  background-color: #de1527;
+}
+nav {
+  background-color: #f28e30;
+}
+section {
+  background-color: #febf15;
+  float: left;
+  width: 50%;
+  box-sizing: border-box; /* elementin leveydessä mukana myös padding ja margin --- 50% ei mene rikki*/
+}
+section article {
+  background-color: #78c044;
+  margin: 1rem;
+}
+aside {
+  background-color: #086fb2;
+  float: right;
+  width: 50%;
+}
+footer {
+  background-color: #932c8c;
+  clear: both;
+}
+p {
+  padding: 1rem;
+  color: white;
+}
+.container {
+  overflow: hidden;
+}
+.column {
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+}

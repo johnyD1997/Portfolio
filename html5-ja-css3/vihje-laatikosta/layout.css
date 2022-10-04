@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+}
+
+.even p:nth-child(odd) {
+  background-color: #e0eac5;
+  border-radius: 0 0 20px 0;
+}
+.odd p:nth-child(even) {
+  background-color: #e0eac5;
+  border-radius: 0 0 20px 0;
+}
+section {
+  padding: 1rem;
+}
+
+p {
+  margin-block-end: 1rem;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.parent > * {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.parent .even {
+  flex-grow: 3;
+}
+h1 {
+  font-size: 3.2rem;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  padding: 1rem;
+}
