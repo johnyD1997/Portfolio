@@ -6,12 +6,12 @@ html{
 
 .container{
     /* background-color: black; */
-    width: 1024px;
+    width: 1240px;
     margin: 0 auto;
 }
 
 .head-page img{
-    width: 1024px;
+    width: 1240px;
     max-width: 100%;
     object-fit: cover;
     height: 35rem;
@@ -79,3 +79,13 @@ header{
 }
 
 
+.text-and-image{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-aside-image{
+    width: 620px;
+    max-width: 50%;
+    object-fit: cover;
+}
