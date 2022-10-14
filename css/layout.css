@@ -56,7 +56,7 @@ section {}
 a {
     color:  #69023B;
     text-decoration: none;
-    font-style: inherit;
+    /* font-style: inherit; */
 }
 
 a:hover{
