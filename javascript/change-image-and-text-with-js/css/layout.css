@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+    
+}
+
+.card{
+    background-color: rgb(83, 83, 245);
+    font-size: 1.6rem;
+    width: 600px;
+    height: 300px;
+}
+.card-logo{
+    width: 100px;
+    max-width: 100%;
+    background-color: rgb(83, 83, 245); 
+}
