@@ -1,0 +1,40 @@
+body{
+    border: 2px solid black;
+    padding: 0 20px;
+    font-family: monospace;
+}
+
+.ylatunniste{
+    border-block-end: 2px solid black;   
+    padding: 1rem 0;   
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+
+#rinnakkain{
+    padding: 1rem 0;
+    display: flex;
+}
+#rinnakkain > *{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+
+footer{
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 800px) {
+    #rinnakkain {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

@@ -4,9 +4,14 @@ html{
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
+    font-size: 1.6rem;
     padding: 1rem;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 ul{
     list-style: disc;
@@ -28,7 +33,7 @@ tr{
 }
 
 td{
-    padding-right: 3rem;
+    padding-right: 17rem;
 }
 
 .share-logo{
